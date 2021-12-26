@@ -20,9 +20,22 @@ body {
     
     border: none;
     background: white;
+    margin-left: 0;
+    margin-right: 0;
     
     /* from the template: https://www.figma.com/file/4qjBZiTkQXI4FEa6Ej1dN3/macOS-Big-Sur-Icon-Template-(Community)?node-id=1%3A2 */
     box-shadow: 0px 11px 22px rgba(0, 0, 0, 0.28);
+}
+
+.button-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button-container > img {
+    /* logo height + 2 * logo-button padding */
+    height: 74.276056338px;
 }
 
 .logo-button:active {
