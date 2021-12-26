@@ -1,0 +1,600 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9601C7BB2778FE3B00BB9666 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9601C7BA2778FE3B00BB9666 /* AppDelegate.swift */; };
+		9601C7BF2778FE3B00BB9666 /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = 9601C7BD2778FE3B00BB9666 /* Main.html */; };
+		9601C7C12778FE3B00BB9666 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 9601C7C02778FE3B00BB9666 /* Icon.png */; };
+		9601C7C32778FE3B00BB9666 /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = 9601C7C22778FE3B00BB9666 /* Style.css */; };
+		9601C7C52778FE3B00BB9666 /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = 9601C7C42778FE3B00BB9666 /* Script.js */; };
+		9601C7C72778FE3B00BB9666 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9601C7C62778FE3B00BB9666 /* ViewController.swift */; };
+		9601C7CA2778FE3B00BB9666 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9601C7C82778FE3B00BB9666 /* Main.storyboard */; };
+		9601C7CC2778FE3C00BB9666 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9601C7CB2778FE3C00BB9666 /* Assets.xcassets */; };
+		9601C7D42778FE3C00BB9666 /* twelve-ft-io Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 9601C7D32778FE3C00BB9666 /* twelve-ft-io Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		9601C7D92778FE3C00BB9666 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9601C7D82778FE3C00BB9666 /* SafariWebExtensionHandler.swift */; };
+		9601C7DC2778FE3C00BB9666 /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = 9601C7DB2778FE3C00BB9666 /* _locales */; };
+		9601C7DE2778FE3C00BB9666 /* images in Resources */ = {isa = PBXBuildFile; fileRef = 9601C7DD2778FE3C00BB9666 /* images */; };
+		9601C7E02778FE3C00BB9666 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 9601C7DF2778FE3C00BB9666 /* manifest.json */; };
+		9601C7E22778FE3C00BB9666 /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = 9601C7E12778FE3C00BB9666 /* background.js */; };
+		9601C7E42778FE3C00BB9666 /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = 9601C7E32778FE3C00BB9666 /* content.js */; };
+		9601C7E62778FE3C00BB9666 /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = 9601C7E52778FE3C00BB9666 /* popup.html */; };
+		9601C7E82778FE3C00BB9666 /* popup.css in Resources */ = {isa = PBXBuildFile; fileRef = 9601C7E72778FE3C00BB9666 /* popup.css */; };
+		9601C7EA2778FE3C00BB9666 /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = 9601C7E92778FE3C00BB9666 /* popup.js */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9601C7D52778FE3C00BB9666 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9601C7AF2778FE3B00BB9666 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9601C7D22778FE3C00BB9666;
+			remoteInfo = "twelve-ft-io Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		9601C7F22778FE3C00BB9666 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				9601C7D42778FE3C00BB9666 /* twelve-ft-io Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		9601C7B72778FE3B00BB9666 /* twelve-ft-io.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "twelve-ft-io.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9601C7BA2778FE3B00BB9666 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9601C7BE2778FE3B00BB9666 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = ../Base.lproj/Main.html; sourceTree = "<group>"; };
+		9601C7C02778FE3B00BB9666 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		9601C7C22778FE3B00BB9666 /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
+		9601C7C42778FE3B00BB9666 /* Script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Script.js; sourceTree = "<group>"; };
+		9601C7C62778FE3B00BB9666 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9601C7C92778FE3B00BB9666 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9601C7CB2778FE3C00BB9666 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9601C7CD2778FE3C00BB9666 /* twelve_ft_io.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = twelve_ft_io.entitlements; sourceTree = "<group>"; };
+		9601C7CE2778FE3C00BB9666 /* twelve-ft-io.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "twelve-ft-io.entitlements"; sourceTree = "<group>"; };
+		9601C7D32778FE3C00BB9666 /* twelve-ft-io Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "twelve-ft-io Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9601C7D82778FE3C00BB9666 /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
+		9601C7DB2778FE3C00BB9666 /* _locales */ = {isa = PBXFileReference; lastKnownFileType = folder; path = _locales; sourceTree = "<group>"; };
+		9601C7DD2778FE3C00BB9666 /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = images; sourceTree = "<group>"; };
+		9601C7DF2778FE3C00BB9666 /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = manifest.json; sourceTree = "<group>"; };
+		9601C7E12778FE3C00BB9666 /* background.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = background.js; sourceTree = "<group>"; };
+		9601C7E32778FE3C00BB9666 /* content.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = content.js; sourceTree = "<group>"; };
+		9601C7E52778FE3C00BB9666 /* popup.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = popup.html; sourceTree = "<group>"; };
+		9601C7E72778FE3C00BB9666 /* popup.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = popup.css; sourceTree = "<group>"; };
+		9601C7E92778FE3C00BB9666 /* popup.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = popup.js; sourceTree = "<group>"; };
+		9601C7EB2778FE3C00BB9666 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9601C7EC2778FE3C00BB9666 /* twelve_ft_io_Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = twelve_ft_io_Extension.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9601C7B42778FE3B00BB9666 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9601C7D02778FE3C00BB9666 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9601C7AE2778FE3B00BB9666 = {
+			isa = PBXGroup;
+			children = (
+				9601C7B92778FE3B00BB9666 /* twelve-ft-io */,
+				9601C7D72778FE3C00BB9666 /* twelve-ft-io Extension */,
+				9601C7B82778FE3B00BB9666 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9601C7B82778FE3B00BB9666 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9601C7B72778FE3B00BB9666 /* twelve-ft-io.app */,
+				9601C7D32778FE3C00BB9666 /* twelve-ft-io Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9601C7B92778FE3B00BB9666 /* twelve-ft-io */ = {
+			isa = PBXGroup;
+			children = (
+				9601C7BA2778FE3B00BB9666 /* AppDelegate.swift */,
+				9601C7C62778FE3B00BB9666 /* ViewController.swift */,
+				9601C7C82778FE3B00BB9666 /* Main.storyboard */,
+				9601C7CB2778FE3C00BB9666 /* Assets.xcassets */,
+				9601C7CD2778FE3C00BB9666 /* twelve_ft_io.entitlements */,
+				9601C7CE2778FE3C00BB9666 /* twelve-ft-io.entitlements */,
+				9601C7BC2778FE3B00BB9666 /* Resources */,
+			);
+			path = "twelve-ft-io";
+			sourceTree = "<group>";
+		};
+		9601C7BC2778FE3B00BB9666 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				9601C7BD2778FE3B00BB9666 /* Main.html */,
+				9601C7C02778FE3B00BB9666 /* Icon.png */,
+				9601C7C22778FE3B00BB9666 /* Style.css */,
+				9601C7C42778FE3B00BB9666 /* Script.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		9601C7D72778FE3C00BB9666 /* twelve-ft-io Extension */ = {
+			isa = PBXGroup;
+			children = (
+				9601C7D82778FE3C00BB9666 /* SafariWebExtensionHandler.swift */,
+				9601C7EB2778FE3C00BB9666 /* Info.plist */,
+				9601C7EC2778FE3C00BB9666 /* twelve_ft_io_Extension.entitlements */,
+				9601C7DA2778FE3C00BB9666 /* Resources */,
+			);
+			path = "twelve-ft-io Extension";
+			sourceTree = "<group>";
+		};
+		9601C7DA2778FE3C00BB9666 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				9601C7DB2778FE3C00BB9666 /* _locales */,
+				9601C7DD2778FE3C00BB9666 /* images */,
+				9601C7DF2778FE3C00BB9666 /* manifest.json */,
+				9601C7E12778FE3C00BB9666 /* background.js */,
+				9601C7E32778FE3C00BB9666 /* content.js */,
+				9601C7E52778FE3C00BB9666 /* popup.html */,
+				9601C7E72778FE3C00BB9666 /* popup.css */,
+				9601C7E92778FE3C00BB9666 /* popup.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9601C7B62778FE3B00BB9666 /* twelve-ft-io */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9601C7F32778FE3C00BB9666 /* Build configuration list for PBXNativeTarget "twelve-ft-io" */;
+			buildPhases = (
+				9601C7B32778FE3B00BB9666 /* Sources */,
+				9601C7B42778FE3B00BB9666 /* Frameworks */,
+				9601C7B52778FE3B00BB9666 /* Resources */,
+				9601C7F22778FE3C00BB9666 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9601C7D62778FE3C00BB9666 /* PBXTargetDependency */,
+			);
+			name = "twelve-ft-io";
+			productName = "twelve-ft-io";
+			productReference = 9601C7B72778FE3B00BB9666 /* twelve-ft-io.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9601C7D22778FE3C00BB9666 /* twelve-ft-io Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9601C7EF2778FE3C00BB9666 /* Build configuration list for PBXNativeTarget "twelve-ft-io Extension" */;
+			buildPhases = (
+				9601C7CF2778FE3C00BB9666 /* Sources */,
+				9601C7D02778FE3C00BB9666 /* Frameworks */,
+				9601C7D12778FE3C00BB9666 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "twelve-ft-io Extension";
+			productName = "twelve-ft-io Extension";
+			productReference = 9601C7D32778FE3C00BB9666 /* twelve-ft-io Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9601C7AF2778FE3B00BB9666 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					9601C7B62778FE3B00BB9666 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					9601C7D22778FE3C00BB9666 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 9601C7B22778FE3B00BB9666 /* Build configuration list for PBXProject "twelve-ft-io" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9601C7AE2778FE3B00BB9666;
+			productRefGroup = 9601C7B82778FE3B00BB9666 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9601C7B62778FE3B00BB9666 /* twelve-ft-io */,
+				9601C7D22778FE3C00BB9666 /* twelve-ft-io Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9601C7B52778FE3B00BB9666 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9601C7C12778FE3B00BB9666 /* Icon.png in Resources */,
+				9601C7CA2778FE3B00BB9666 /* Main.storyboard in Resources */,
+				9601C7C52778FE3B00BB9666 /* Script.js in Resources */,
+				9601C7BF2778FE3B00BB9666 /* Main.html in Resources */,
+				9601C7CC2778FE3C00BB9666 /* Assets.xcassets in Resources */,
+				9601C7C32778FE3B00BB9666 /* Style.css in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9601C7D12778FE3C00BB9666 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9601C7E22778FE3C00BB9666 /* background.js in Resources */,
+				9601C7E82778FE3C00BB9666 /* popup.css in Resources */,
+				9601C7E62778FE3C00BB9666 /* popup.html in Resources */,
+				9601C7DE2778FE3C00BB9666 /* images in Resources */,
+				9601C7E02778FE3C00BB9666 /* manifest.json in Resources */,
+				9601C7DC2778FE3C00BB9666 /* _locales in Resources */,
+				9601C7E42778FE3C00BB9666 /* content.js in Resources */,
+				9601C7EA2778FE3C00BB9666 /* popup.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9601C7B32778FE3B00BB9666 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9601C7C72778FE3B00BB9666 /* ViewController.swift in Sources */,
+				9601C7BB2778FE3B00BB9666 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9601C7CF2778FE3C00BB9666 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9601C7D92778FE3C00BB9666 /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9601C7D62778FE3C00BB9666 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9601C7D22778FE3C00BB9666 /* twelve-ft-io Extension */;
+			targetProxy = 9601C7D52778FE3C00BB9666 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9601C7BD2778FE3B00BB9666 /* Main.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9601C7BE2778FE3B00BB9666 /* Base */,
+			);
+			name = Main.html;
+			sourceTree = "<group>";
+		};
+		9601C7C82778FE3B00BB9666 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9601C7C92778FE3B00BB9666 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9601C7ED2778FE3C00BB9666 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9601C7EE2778FE3C00BB9666 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		9601C7F02778FE3C00BB9666 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "twelve-ft-io Extension/twelve_ft_io_Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "twelve-ft-io Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "twelve-ft-io Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "tree.twelve-ft-io.Extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		9601C7F12778FE3C00BB9666 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "twelve-ft-io Extension/twelve_ft_io_Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "twelve-ft-io Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "twelve-ft-io Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "tree.twelve-ft-io.Extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		9601C7F42778FE3C00BB9666 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "twelve-ft-io/twelve-ft-io.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "twelve-ft-io";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "tree.twelve-ft-io";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		9601C7F52778FE3C00BB9666 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "twelve-ft-io/twelve-ft-io.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "twelve-ft-io";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "tree.twelve-ft-io";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9601C7B22778FE3B00BB9666 /* Build configuration list for PBXProject "twelve-ft-io" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9601C7ED2778FE3C00BB9666 /* Debug */,
+				9601C7EE2778FE3C00BB9666 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9601C7EF2778FE3C00BB9666 /* Build configuration list for PBXNativeTarget "twelve-ft-io Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9601C7F02778FE3C00BB9666 /* Debug */,
+				9601C7F12778FE3C00BB9666 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9601C7F32778FE3C00BB9666 /* Build configuration list for PBXNativeTarget "twelve-ft-io" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9601C7F42778FE3C00BB9666 /* Debug */,
+				9601C7F52778FE3C00BB9666 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9601C7AF2778FE3B00BB9666 /* Project object */;
+}
