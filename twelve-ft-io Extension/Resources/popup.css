@@ -3,11 +3,54 @@
 }
 
 body {
-    width: 100px;
+    width: 200px;
     padding: 10px;
 
     font-family: system-ui;
+    font-size: 16px;
     text-align: center;
+}
+
+.logo-button {
+    /* 57 / 710 * 64 = (template padding) / (template icon width) * (this icon width) */
+    padding: 5.138028169px;
+    
+    /* 184 / 710 * 64 = (template border radius) / (template icon width) * (this icon width) */
+    border-radius: 16.585915493px;
+    
+    border: none;
+    background: white;
+    
+    /* from the template: https://www.figma.com/file/4qjBZiTkQXI4FEa6Ej1dN3/macOS-Big-Sur-Icon-Template-(Community)?node-id=1%3A2 */
+    box-shadow: 0px 11px 22px rgba(0, 0, 0, 0.28);
+}
+
+.logo-button:active {
+    opacity: 0.72;
+}
+
+.logo-text {
+    font-size: 12px;
+}
+
+.logo {
+    height: 64px;
+    width: 64px;
+    
+    /* the svg does weird clipping without this. */   
+    overflow: unset;
+}
+
+hr {
+    height: 0;
+    border-width: 1px 0 0 0;
+    border-style: solid;
+    border-color: white;
+    opacity: 0.3;
+}
+
+.more-info-text {
+    font-size: 14px;
 }
 
 @media (prefers-color-scheme: dark) {
