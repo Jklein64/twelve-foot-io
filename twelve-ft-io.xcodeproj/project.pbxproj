@@ -50,7 +50,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		9601C7B72778FE3B00BB9666 /* twelve-ft-io.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "twelve-ft-io.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9601C7B72778FE3B00BB9666 /* 12ft.io.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 12ft.io.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9601C7BA2778FE3B00BB9666 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9601C7BE2778FE3B00BB9666 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = ../Base.lproj/Main.html; sourceTree = "<group>"; };
 		9601C7C02778FE3B00BB9666 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
@@ -103,7 +103,7 @@
 		9601C7B82778FE3B00BB9666 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9601C7B72778FE3B00BB9666 /* twelve-ft-io.app */,
+				9601C7B72778FE3B00BB9666 /* 12ft.io.app */,
 				9601C7D32778FE3C00BB9666 /* twelve-ft-io Extension.appex */,
 			);
 			name = Products;
@@ -177,7 +177,7 @@
 			);
 			name = "twelve-ft-io";
 			productName = "twelve-ft-io";
-			productReference = 9601C7B72778FE3B00BB9666 /* twelve-ft-io.app */;
+			productReference = 9601C7B72778FE3B00BB9666 /* 12ft.io.app */;
 			productType = "com.apple.product-type.application";
 		};
 		9601C7D22778FE3C00BB9666 /* twelve-ft-io Extension */ = {
@@ -435,7 +435,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "twelve-ft-io Extension/Info.plist";
-				INFOPLIST_KEY_CFBundleDisplayName = "twelve-ft-io Extension";
+				INFOPLIST_KEY_CFBundleDisplayName = "12ft.io Extension";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -465,7 +465,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "twelve-ft-io Extension/Info.plist";
-				INFOPLIST_KEY_CFBundleDisplayName = "twelve-ft-io Extension";
+				INFOPLIST_KEY_CFBundleDisplayName = "12ft.io Extension";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -492,13 +492,15 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_ENTITLEMENTS = "twelve-ft-io/twelve-ft-io.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = "twelve-ft-io";
+				INFOPLIST_KEY_CFBundleDisplayName = 12ft.io;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INFOPLIST_KEY_NSMainStoryboardFile = Main;
 				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
@@ -515,7 +517,7 @@
 					WebKit,
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "tree.twelve-ft-io";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = 12ft.io;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 			};
@@ -527,13 +529,15 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_ENTITLEMENTS = "twelve-ft-io/twelve-ft-io.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = "twelve-ft-io";
+				INFOPLIST_KEY_CFBundleDisplayName = 12ft.io;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INFOPLIST_KEY_NSMainStoryboardFile = Main;
 				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
@@ -550,7 +554,7 @@
 					WebKit,
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "tree.twelve-ft-io";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = 12ft.io;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 			};
